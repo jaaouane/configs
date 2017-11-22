@@ -1,0 +1,15 @@
+# Spring properties
+spring:
+  application:
+     name: product-ms
+
+# Discovery Server Access
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+
+# HTTP Server
+server:
+  port: 8080   # HTTP (Tomcat) port
+
