@@ -1,3 +1,8 @@
+# Spring properties
+spring:
+  application:
+     name: registry
+
 # Configure this Discovery Server
 eureka:
   instance:
