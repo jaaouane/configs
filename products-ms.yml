@@ -1,0 +1,15 @@
+# Spring properties
+spring:
+  application:
+     name: products-ms
+
+# Discovery Server Access
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://ms-sample-registry:8761/eureka/
+
+# HTTP Server
+server:
+  port: 8080   # HTTP (Tomcat) port
+
