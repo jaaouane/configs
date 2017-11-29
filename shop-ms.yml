@@ -2,6 +2,9 @@
 spring:
   application:
      name: shop-ms
+  mail:
+     host: 11.133.129.10
+     username: aymen.jaaouane@yahoo.fr
 
 # Discovery Server Access
 eureka:
@@ -13,11 +16,6 @@ eureka:
 server:
   port: 8081   # HTTP (Tomcat) port
 
-
-spring:
-  mail:
-    host: 11.133.129.10
-    username: aymen.jaaouane@yahoo.fr
 
 message: HELLO AYMEN
 
