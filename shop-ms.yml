@@ -17,5 +17,5 @@ server:
   port: 8081   # HTTP (Tomcat) port
 
 
-message: HELLO AYMEN
+#message: HELLO AYMEN
 
